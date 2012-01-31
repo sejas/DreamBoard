@@ -1,0 +1,97 @@
+/*
+
+Header
+
+*/
+body {
+	margin-left:   3%;
+	margin-right:  3%;
+
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	padding: 0.5em;
+
+}
+
+p { text-align: justify; text-indent: 2em; margin-top: 1em; margin-bottom: 1em; }
+
+pre { font-family: monospace; }
+
+img {
+	border-width: 0px;
+}
+
+#Header {
+	margin-top:    3%;
+	margin-bottom: 3%;
+
+	background-color: #C0C0C0;
+
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	padding: 0.5em;
+}
+
+
+#Menu {
+	float: right;
+	width: 15%;
+	background-color: #C0C0C0;
+
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	padding: 0.5em;
+
+	margin-left: 5%;
+}
+
+#NavBar a:link, #NavBar a:visited {
+	display: block;
+	margin: 0.5em;
+}
+
+
+#Conformance {
+	text-align: center;
+
+	margin: 10%;
+	padding: 2%;
+}
+
+
+#Content {
+	margin-right:20%;
+	padding: 1em;
+
+	background-color: #C0C0C0;
+
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+
+
+}
+
+#Footer {
+	color: #C0C0C0;
+	font-size: 70%;
+	text-align: center;
+	text-indent: 0em;
+
+	margin-top:1em;
+	margin-right:20%;
+	background-color: #F0F0F0;
+
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	padding: 2em;
+}
+
+#Copyright {
+	text-align: center;
+	text-indent: 0em;
+}

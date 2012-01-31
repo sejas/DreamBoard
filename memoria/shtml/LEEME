@@ -1,0 +1,11 @@
+Para configurar HTML dinámico con Server Side Includes:
+
+Nota: Los archivos de configuración del apache están en /etc/apache
+
+- Se debe modificar el archivo del Apache: httpd.conf
+- Si no está el módulo mod_include.so hay que añadirlo en el archivo modules.conf. Para ello se siguen los siguientes pasos:
+
+  LoadModule includes_module /usr/lib/apache/1.3/mod_include.so
+
+- Se reinicia el apache
+
