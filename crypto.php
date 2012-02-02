@@ -17,5 +17,4 @@ public static function decrypt($enc){
 }
 
 }
-echo Crypto::decrypt(Crypto::encrypt("hola"));
 ?>

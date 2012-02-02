@@ -41,12 +41,14 @@
 			<?php } ?>
 			<!--div class="link email">
 			</div!-->
+					<?php if (!isset($_GET['d'])){ ?>
 				<div class="link twitter first">
 				<a href="http://twitter.com/antoniosejas" title="Sígueme en Twitter – @antoniosejas" target="_blank" >
 					<em>Sígueme</em>
 					<span>Twitter</span>
 				</a>
-			</div>	
+				</div>	
+		<?php } ?>
 </div>
 
 		<script language="JavaScript" type="text/javascript">

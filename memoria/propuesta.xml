@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!-- 
+     Copyright (c) 2003 Francisco Manuel SÁNCHEZ MORENO
+     Verbatim copying and distribution of this entire document is permitted in 
+     any medium, provided this notice is preserved. 
+-->
+<proposal>
+<!-- 
+     En la cabecera el alumno pondrá todos sus datos personales, incluido 
+     el nombre de un fichero con su foto (opcional). En el correo no poner
+     los simbolos arroba (@) ni punto (.) para que no pueda ser detectado
+     por los generadores de SPAM. Poner los simbolos que hay.
+ -->
+  <head>
+    <academicyear> 2011-2012 </academicyear>
+    <student> 
+      <name> ANTONIO MARTIN</name>
+      <surname> SEJAS MUSTAFA </surname>
+      <upm_id> 040187 </upm_id>
+      <email> l040187#alumnos-fi-upm-es </email>
+      <photo>  </photo>
+    </student>
+  </head>
+
+
+<!-- En el cuerpo el alumno pondrá el título las tecnologías usadas y la 
+     descripción detallada del trabajo -->
+
+
+  <body>
+    <title> 
+	DreamBoard: Visualiza y comparte tus objetivos
+    </title>
+
+    <clienttechno>
+	<item> Javascript </item>
+        <item> HTML5 </item>
+        <item> box2d </item>
+    </clienttechno>
+
+    <servertechno>
+        <item> MySQL </item>
+        <item> PHP </item>
+        <item> Apache </item>
+    </servertechno>
+
+    <description> 
+
+<item>Cada día más gente es atrapada en la rutina del día a día. El trabajo, los estudios, la familia ... todas estas responsabilidades nos obligan a postergar o inscluso a descartar muchas ideas, proyectos o sueños que una vez teníamos.</item>
+
+<item>DreamBoard nace de la necesidad de recordarnos y enfocarnos en nuestros verdaderos sueños, metas y proyectos. Encaminándonos hacia nuestras metas en los momentos en los que nos sintamos perdidos.</item>
+<item>Para facilitar la comprensión de la estructura de un DreamBoard, adjunto el diseño reducido</item>
+
+
+<item>Tecnologías Utilizadas</item>
+<item>Nuestra aplicación se centra en la experiencia y contenido que pueda aportar el usuario, intentando seguir la filosofía de la WEB 2.0. Por ello hemos elegido las siguientes herramientas y tecnologías</item>
+<item> En el cliente </item>
+    </description> 
+  </body>
+
+<!-- 
+      En el campo LICENCIA se pone la licencia de la información de este 
+      documento, la del software que se va a producir, y la de la 
+      documentación que se va a producir, ambos con enlaces a éstas.
+-->  
+ 
+  <license>
+     <copyright> 
+        <year> 2012 </year>
+        <author> Antonio Martín SEJAS MUSTAFÁ </author>
+     </copyright>
+     
+     <software> GNU GPL </software>
+     <document> GNU FDL </document>
+  </license>
+
+<!--
+     Finalmente, se adjunta la bibliografía que se piensa emplear, tantos campos
+     como sea necesario, con un comentario personal y enlace al sitio web. 
+-->
+
+  <biblio>
+      <bibitem>
+           <bibtitle> Página web de Apache </bibtitle> 
+           <biburl>  http://www.apache.org/ </biburl>
+           <bibcoment> 
+               En esta página se puede acceder al código y documentación del
+               servidor apache. 
+           </bibcoment>                       
+      </bibitem>
+
+      <bibitem>
+           <bibtitle> Página web de box2d</bibtitle> 
+           <biburl>  http://www.box2d.org/ </biburl>
+           <bibcoment> 
+               En esta página se puede acceder al código y documentación del
+              la librería para juegos en Javascript box2d 
+           </bibcoment>                       
+      </bibitem>
+           
+  </biblio>
+
+</proposal>

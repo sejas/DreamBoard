@@ -1,5 +1,6 @@
 <?php 
 include_once('user.php');
+include_once('crypto.php');
 include_once('picture.php');
 include_once('page.php');
 include_once('sidebar.php');

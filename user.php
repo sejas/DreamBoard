@@ -72,6 +72,32 @@ function get($id){
 }
 
 
+function dreamBoards(){
+
+      $ssql = "SELECT * FROM db_boards WHERE id_user='".$this->id."' and not deleted";
+        $rs=Config::sql($ssql);
+        if (!$rs){
+                echo mysql_error();
+        }else{
+        $i=0;
+        while($dB=mysql_fetch_assoc($rs)) {
+		$d[$i]=new DreamBoard($dB);
+	$i++;
+        }//end while
+	return $d;
+	}
+}
+
+function save($dreamboard_id){
+$ssql="INSERT INTO `db_boards` (`id_board`, `id_user`, `title`, `description`, `created`, `modified`, `deleted`) VALUES ('$this->id', '$user_id', '$this->title', '$this->description', CURRENT_TIMESTAMP, '0000-00-00 00:00:00', '0');";
+        $result=Config::sql($ssql);
+        if (!$result){
+                        return "<p class='msg error'>Ups! ha habido un error/p>";
+        }else{
+
+        }
+}
+
 
 }
 /**

@@ -1,0 +1,14 @@
+Autor: Antonio Sejas
+Uri: http://antonio.sejas.es
+
+
+
+
+
+
+--
+GitHub
+  git add -A
+  git commit -m 'comentario'
+  git remote add origin git@github.com:antoniosejas/DreamBoard.git
+  git push -u origin master

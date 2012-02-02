@@ -3,7 +3,8 @@ include('config.php');
 //Si la sesion esta abierta, recoge al usuario. Sino lo inicializa a invitado
 $user=new User();
 //Recoge la pagina de $_GET['p'], sino la inicializa a HOME
-$page=new Page($user,$_GET['p']);
+$title=(isset($_GET['p']))?$_GET['p']:"";
+$page=new Page($user,$title);
 //Comprueba que el usuario tiene permisos para ver esa pagina
 $page->load();
 

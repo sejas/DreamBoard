@@ -9,10 +9,8 @@ if (!isset($paginas)) die();
 <p>Cada día más gente es atrapada en la rutina del día a día. El trabajo, los estudios, la familia ... todas estas responsabilidades nos obligan a postergar o inscluso a descartar muchas ideas, proyectos o sueños que una vez teníamos.</p>
 
 <p><a href="http://antonio.sejas.es/proyectos/dreamboard" target="_blank" title="">DreamBoard</a> nace de la necesidad de recordarnos y enfocarnos en nuestros verdaderos sueños, metas y proyectos. Encaminándonos hacia nuestras metas en los momentos en los que nos sintamos perdidos.</p>
-
-
-<h3>Público Objetivo</h3>
-<p>Este proyecto está enfocado hacia Emprendedores y Soñadores, que quieran administrar y realizar un seguimiento de sus objetivos.</p>
+<p>Para facilitar la comprensión de la estructura de un DreamBoard, adjunto el diseño reducido</p>
+<img src="dreamboard-uml.png" />
 
 
 <h3>Tecnologías Utilizadas</h3>
@@ -36,3 +34,4 @@ if (!isset($paginas)) die();
 	<li>MySql</li>
 	<li>PHP</li>
 </ul>
+
